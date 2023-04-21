@@ -141,7 +141,7 @@ def count_employees_with_clearance():
     for employee in range(len(list_employees)):
         if list_employees[employee][4] != 0 :
             employees_with_clearance_level.append(list_employees[employee][4])   
-    prYellow("Number of employees who have at least the input clearance level is :  ")
+    prYellow("Number of employees who have at least the input clearance level is:  ")
     prYellow(len(employees_with_clearance_level))
 
 

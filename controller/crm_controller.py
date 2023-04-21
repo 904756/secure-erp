@@ -67,7 +67,7 @@ def get_subscribed_emails():
     list_customers = crm.get_list_customers()
     list_of_emails = []
     lists_of_list_of_email = []
-    print("list_of_emails adresses of the subscribed customers:")
+    print("List of emails adresses of the subscribed customers:")
     for customer_information in list_customers:
         customer_mail = customer_information[2]
         subscription = customer_information[3]
